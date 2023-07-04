@@ -29,12 +29,12 @@ The issue object as a json string.
 ## Example usage
 
 ```yaml
-uses: alialaa/issue-action@v1
+uses: miguelampudia/issue-action@v1
 with:
   token: ${{ secrets.GITHUB_TOKEN }}
   title: Some Issue Title
   body: Some Issue Body
   assignees: |
-    alialaa
+    miguelampudia
     alialaa17
 ```
